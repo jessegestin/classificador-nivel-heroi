@@ -25,13 +25,13 @@ rl.question('Digite seu nome de Herói: ', (resposta) => {
         } else if (qtdXP <= 5000) {
             nivelHeroi = "Prata";
         } else if (qtdXP <= 7000) {
-            nivelHeroi = "Ouro";    
+            nivelHeroi = "Ouro";
         } else if (qtdXP <= 8000) {
-            nivelHeroi = "Platina";     
+            nivelHeroi = "Platina";
         } else if (qtdXP <= 9000) {
-            nivelHeroi = "Ascendente"; 
+            nivelHeroi = "Ascendente";
         } else if (qtdXP >= 10000) {
-            nivelHeroi = "Imortal"; 
+            nivelHeroi = "Imortal";
         } else {
             console.log("Quantidade de XP informada inválida.\nNão será possível continuar nossa aventura!");
             erro = true;
